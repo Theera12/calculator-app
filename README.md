@@ -45,7 +45,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [resource 1](https://www.stackoverflow.com) - This helped me for learning new formats for selectors.
+- [resource 1](https://www.stackoverflow.com) 
 
 ## Author
 
