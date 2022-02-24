@@ -192,7 +192,7 @@ input[type="radio"]:checked#toggler3.toggle-select3 {
   }
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:400px) {
   .container {
     padding: 1%;
     margin: 0;
