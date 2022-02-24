@@ -199,13 +199,13 @@ input[type="radio"]:checked#toggler3.toggle-select3 {
     padding: 1%;
     margin: 0;
     width: 70vw;
-    height: 80%;
+    height: 40vh;
     top: 10%;
     position: fixed;
     text-align: center;
     left: 25px;
     right: 25px;
-    overflow-y:hidden;
+    
   }
 
   .child1, .child2, .child3, .child4, .child5 {
