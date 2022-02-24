@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="pre" href="/css/master.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Frontend Mentor | Calculator app</title>
+</head>
+<main>
+
+  <body>
+
+    <div class="container">
+      <!-- division with heading and button toggle -->
+      <div class="app-heading">
+        <h1 class="item1">calc</h1>
+        <label class="theme">THEME</label>
+        <div class="item2">
+
+          <div class="toggle-button">
+            <label class="toggle-value">1 2 3</label>
+            <label class="toggle-container">
+              <input type="radio" name="switch" class="toggle-select1" id="toggler1" checked>
+              <input type="radio" name="switch" class="toggle-select2" id="toggler2">
+              <input type="radio" name="switch" class="toggle-select3" id="toggler3">
+            </label>
+
+          </div>
+        </div>
+      </div>
+
+      <!--  result box- -->
+      <div class="result">
+
+        <h1 class="result-text" id="screen">0</h1>
+      </div>
+      <!-- -calculator body- -->
+      <div class="calc-body">
+        <div class="child1">
+          <button class="btn" type="button" value="7" name="button">7</button>
+          <button class="btn" type="button" value="8" name="button">8</button>
+          <button class="btn" type="button" value="9" name="button">9</button>
+          <button class="btn btn-delreset" type="button" value="DEL" name="button" id="btndel">DEL</button>
+        </div>
+        <div class="child2">
+          <button class="btn" type="button" value="4" name="button">4</button>
+          <button class="btn" type="button" value="5" name="button">5</button>
+          <button class="btn" type="button" value="6" name="button">6</button>
+          <button class="btn" type="button" value="+" name="button">+</button>
+        </div>
+        <div class="child3">
+          <button class="btn" type="button" value="1" name="button">1</button>
+          <button class="btn" type="button" value="2" name="button">2</button>
+          <button class="btn" type="button" value="3" name="button">3</button>
+          <button class="btn" type="button" value="-" name="button">-</button>
+        </div>
+        <div class="child4">
+          <button class="btn" type="button" value="." name="button">.</button>
+          <button class="btn" type="button" value="0" name="button">0</button>
+          <button class="btn" type="button" value="/" name="button">/</button>
+          <button class="btn" type="button" value="*" name="button">*</button>
+        </div>
+        <div class="child5">
+          <button class="btn btn-last btn-delreset" type="button" value="RESET" name="button" id="btnreset">RESET</button>
+          <button class="btn btn-last btn-equal" type="button" value="=" name="button" id="btnequalto">=</button>
+        </div>
+      </div>
+    </div>
+<!---linking jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Aarthy</a>.
+    </div>
+  </footer>
+
+</main>
+
+</html>

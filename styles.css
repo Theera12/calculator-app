@@ -1,0 +1,211 @@
+/* --------------------------body styling--------------------------------------- */
+body {
+  background-color: hsl(222, 26%, 31%);
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;
+  overflow: hidden;
+}
+
+h1, label {
+  color: white;
+}
+
+footer{
+  position:absolute;
+  top:780px;
+  left:680px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+
+.attribution a {
+  color:hsl(25, 98%, 40%);
+}
+
+/* ---------------------------------calculator body styling------------------------- */
+.container {
+  margin: auto;
+  width: 25%;
+  height: 100%;
+  padding: 7%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: center;
+}
+
+/* ------------------------------heading and toggle button container layout style-------- */
+.app-heading {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: flex-end;
+  column-gap: 20px;
+}
+
+.toggle-button {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.toggle-value {
+  letter-spacing: 0.3rem;
+  color: hsl(0, 0, 100%);
+}
+
+.theme {
+  width: 12%;
+}
+
+.item1 {
+  width: 48%;
+  margin-bottom: 0;
+  color: hsl(0, 0, 100%);
+}
+
+/* ----------------------------toggle button styling----------------------- */
+.toggle-container {
+  border-radius: 20px;
+  background-color: hsl(223, 31%, 20%);
+  padding: 2px 4px;
+  margin-bottom: 0;
+}
+
+input[type="radio"] {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  margin: 2px 1px -2px 1px;
+  border-radius: 50%;
+}
+
+/* background, border etc to customize */
+input[type="radio"]:checked#toggler1.toggle-select1 {
+  /* checked state properties */
+  background-color: hsl(6, 63%, 50%);
+  box-shadow: hsl(6, 70%, 34%);
+}
+
+input[type="radio"]:checked#toggler2.toggle-select2 {
+  /* checked state properties */
+  background-color: hsl(25, 98%, 40%);
+  box-shadow: hsl(25, 99%, 27%);
+}
+
+input[type="radio"]:checked#toggler3.toggle-select3 {
+  /* checked state properties */
+  background-color: hsl(176, 100%, 44%);
+  box-shadow: hsl(177, 92%, 70%);
+}
+
+/* -------------------result column styling--------------- */
+.result {
+  width: 104%;
+  height: 20%;
+  background-color: hsl(224, 36%, 15%);
+  border-radius: 10px;
+}
+
+.result-text {
+  font-size: 3rem;
+  text-align: right;
+  padding: 1% 3%;
+}
+
+/* ------------------------cal body layout style----------------- */
+.calc-body {
+  width: 95%;
+  height: 80%;
+  background-color: hsl(223, 31%, 20%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.btn {
+  border-radius: 10px;
+  width: 865px;
+  height: 60px;
+  padding-left: 1%;
+  padding-right: 3%;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: hsl(30, 25%, 89%);
+  box-shadow: 0px 1px hsl(28, 16%, 65%);
+  color: hsl(221, 14%, 31%);
+}
+
+.btn-last {
+  border-radius: 10px;
+  width: 210px;
+  height: 60px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.child1, .child2, .child3, .child4, .child5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  column-gap: 15px;
+  width: 100%;
+  padding: 0 1%;
+}
+
+.btn-delreset {
+  background-color: hsl(225, 21%, 49%);
+  box-shadow: 0px 2px hsl(224, 28%, 35%);
+  color: white;
+  font-size: 1.3rem;
+}
+
+.btn-equal {
+  background-color: hsl(6, 63%, 50%);
+  box-shadow: 0px 1px hsl(6, 70%, 34%);
+  color: white;
+  font-size: 1.3rem;
+}
+
+/* ----------------------------------------media query------------------------ */
+@media screen and (max-width :1500px) {
+  .container {
+    padding: 1%;
+    margin: auto;
+    width: 40vw;
+    height: 80%;
+    position: fixed;
+    box-sizing: content-box;
+    left: 20%;
+    right: 20%;
+    top: 10%;
+  }
+}
+
+@media screen and (min-width:200px) and (max-width:400px) {
+  .container {
+    padding: 1%;
+    margin: 0;
+    width: 280px;
+    height: 80%;
+    top: 10%;
+    position: fixed;
+    text-align: center;
+    left: 25px;
+    right: 25px;
+  }
+
+  .child1, .child2, .child3, .child4, .child5 {
+    width: 275px;
+  }
+}
