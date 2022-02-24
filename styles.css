@@ -203,7 +203,6 @@ input[type="radio"]:checked#toggler3.toggle-select3 {
     text-align: center;
     left: 25px;
     right: 25px;
-    overflow:hidden;
   }
 
   .child1, .child2, .child3, .child4, .child5 {
