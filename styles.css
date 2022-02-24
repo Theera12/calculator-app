@@ -197,7 +197,7 @@ input[type="radio"]:checked#toggler3.toggle-select3 {
     padding: 1%;
     margin: 0;
     width: 70vw;
-    height: 80vh;
+    height: 20vh;
     top: 10%;
     position: fixed;
     text-align: center;
